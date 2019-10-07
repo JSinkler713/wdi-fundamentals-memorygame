@@ -10,6 +10,10 @@ body {
 a {
     text-decoration: none;
     margin: 0 20px;
+    border-bottom: 2px solid transparent;
+}
+a:hover {
+    border-bottom-color: white;
 }
 nav {
     background-color: #00a6b3;
@@ -55,4 +59,36 @@ p {
 }
 footer {
     margin-top: 50px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+.copyright {
+    float: left;
+}
+.message {
+    float: right;
+}
+.gitLink {
+    text-align: center;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.name {
+    color: #F15B31;
+    font-weight: 700;
 }
